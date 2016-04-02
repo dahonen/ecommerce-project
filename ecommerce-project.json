@@ -3,28 +3,23 @@
         "name": "Dolphin Bacon",
         "price": 10.28,
         "description": "Bacon of the sea"
-    },
-    {
+    }, {
         "name": "Shark Bacon",
         "price": 4.12,
         "description": "Mmmm Numa Numa"
-    },
-    {
+    }, {
         "name": "Rattlesnake Bacon",
         "price": 225.59,
         "description": "Spicy"
-    },
-    {
+    }, {
         "name": "Cow Bacon",
         "price": 45.26,
         "description": "Mooo Mooo"
-    },
-    {
+    }, {
         "name": "Green Bacon",
         "price": 2.55,
         "description": "nourishes your muscles"
-    },
-    {
+    }, {
         "name": "Cat Bacon",
         "price": 5.89,
         "description": "Meow"
