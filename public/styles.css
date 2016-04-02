@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+  text-align: center;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+h1 {
+  margin:auto;
+  text-align: center;
+  font-size: 75px;
+  font-family: fantasy;
+  padding-top: 10px;
+}
+
+h2, input {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.product input {
+  border: 0;
+}
+
+.product {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  margin-top: 100px;
+}
+
+footer p {
+  margin:auto;
+  text-align: center;
+  font-size: 35px;
+  font-family:sans-serif;
+  padding-top: 5px;
+  color: #fff;
+}

@@ -1,0 +1,32 @@
+{
+    "ecommerce": [{
+        "name": "hair dryer",
+        "price": 10.28,
+        "description": "blows"
+    },
+    {
+        "name": "toothpaste",
+        "price": 4.12,
+        "description": "shines"
+    },
+    {
+        "name": "dresser",
+        "price": 225.59,
+        "description": "contains"
+    },
+    {
+        "name": "chair",
+        "price": 45.26,
+        "description": "places"
+    },
+    {
+        "name": "milk",
+        "price": 2.55,
+        "description": "nourishes"
+    },
+    {
+        "name": "tweesers",
+        "price": 5.89,
+        "description": "picks"
+    }]
+}
