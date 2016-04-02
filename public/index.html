@@ -2,23 +2,27 @@
 <html ng-app="eCommerce">
   <head>
     <meta charset="utf-8">
-    <title>Blah Store</title>
+    <title>Dumpster Bacon</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   </head>
   <body ng-controller="blahCtrl">
     <header>
-      <h1>Welcome to the Blah Store!</h1>
+      <h1>Welcome to Dumpster Bacon!
+      <i class="icon-food"></i>
+      </h1>
     </header>
     <div class="nav">
       <a ui-sref="addmodify">Admin</a>
-      <a ui-sref="sell">Sell</a>
+      <a ui-sref="sell">Buy Now</a>
     </div>
     <div class="container">
       <ui-view></ui-view>
     </div>
 
     <footer>
-      <p>All rights reserved. Blah Store. Copyright 2016.</p>
+      <p>All rights reserved. Dumpster Bacon, Inc. Copyright 2016.</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>

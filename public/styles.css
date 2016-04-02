@@ -6,17 +6,19 @@ body {
 }
 
 header {
-  height: 200px;
+  height: 100px;
   width: 100%;
-  background-color: lightblue;
+  background-color: #f7bb09;
+  margin-top: none;
 }
 
 h1 {
   margin:auto;
-  text-align: center;
-  font-size: 75px;
-  font-family: fantasy;
-  padding-top: 10px;
+  text-align: left;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-weight: normal;
 }
 
 h2, input {
@@ -30,7 +32,7 @@ h2, input {
 
 .product {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 footer {
@@ -43,8 +45,13 @@ footer {
 footer p {
   margin:auto;
   text-align: center;
-  font-size: 35px;
+  font-size: 12px;
   font-family:sans-serif;
-  padding-top: 5px;
+  padding-top: 20px;
   color: #fff;
+}
+h4 {
+  text-align: left;
+  text-decoration: underline;
+  
 }
