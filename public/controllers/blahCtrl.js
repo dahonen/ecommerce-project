@@ -1,7 +1,7 @@
-angular.module("eCommerce").controller("teethCtrl", function($scope, teethService) {
+angular.module("eCommerce").controller("blahCtrl", function($scope, blahService) {
   $scope.products = {};
   $scope.getProducts = function () {
-    teethService.getProducts().then(function(response){
+    blahService.getProducts().then(function(response){
       $scope.products = response;
     });
   };
@@ -10,17 +10,17 @@ angular.module("eCommerce").controller("teethCtrl", function($scope, teethServic
   $scope.postProducts = function (name, description, price) {
     var obj = {name: name, description: description, price: price};
     console.log(obj);
-    teethService.postProducts(obj).then(function(response){
+    blahService.postProducts(obj).then(function(response){
       $scope.products = response;
     });
   };
   $scope.changeProducts = function (product) {
-    teethService.changeProducts(product).then(function(response){
+    blahService.changeProducts(product).then(function(response){
       $scope.products = response;
     });
   };
   $scope.deleteProducts = function (product) {
-    teethService.deleteProducts(product._id).then(function(response){
+    blahService.deleteProducts(product._id).then(function(response){
       $scope.products = response;
     });
   };
