@@ -1,4 +1,4 @@
-angular.module("eCommerce").service("blahService", function($http) {
+angular.module("eCommerce").service("baconService", function($http) {
     this.getProducts = function() {
         return $http({
             method: "GET",

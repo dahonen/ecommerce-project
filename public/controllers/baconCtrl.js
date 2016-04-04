@@ -1,7 +1,7 @@
-angular.module("eCommerce").controller("blahCtrl", function($scope, blahService) {
+angular.module("eCommerce").controller("baconCtrl", function($scope, baconService) {
     $scope.products = {};
     $scope.getProducts = function() {
-        blahService.getProducts().then(function(response) {
+        baconService.getProducts().then(function(response) {
             $scope.products = response;
         });
     };
@@ -14,17 +14,17 @@ angular.module("eCommerce").controller("blahCtrl", function($scope, blahService)
             price: price
         };
         console.log(obj);
-        blahService.postProducts(obj).then(function(response) {
+        baconService.postProducts(obj).then(function(response) {
             $scope.products = response;
         });
     };
     $scope.changeProducts = function(product) {
-        blahService.changeProducts(product).then(function(response) {
+        baconService.changeProducts(product).then(function(response) {
             $scope.products = response;
         });
     };
     $scope.deleteProducts = function(product) {
-        blahService.deleteProducts(product._id).then(function(response) {
+        baconService.deleteProducts(product._id).then(function(response) {
             $scope.products = response;
         });
     };
