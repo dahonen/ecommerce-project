@@ -1,27 +1,27 @@
 {
     "ecommerce-project": [{
         "name": "Dolphin Bacon",
-        "price": 10.28,
         "description": "Bacon of the sea"
+        "price": 10.28,
     }, {
         "name": "Shark Bacon",
-        "price": 4.12,
-        "description": "Mmmm Numa Numa"
+        "description": "Mmmm Numa Numa",
+        "price": 4.12
     }, {
         "name": "Rattlesnake Bacon",
-        "price": 225.59,
-        "description": "Spicy"
+        "description": "Spicy",
+        "price": 225.59
     }, {
         "name": "Cow Bacon",
-        "price": 45.26,
-        "description": "Mooo Mooo"
+        "description": "Mooo Mooo",
+        "price": 45.26
     }, {
         "name": "Green Bacon",
-        "price": 2.55,
-        "description": "nourishes your muscles"
+        "description": "nourishes your muscles",
+        "price": 2.55
     }, {
         "name": "Cat Bacon",
-        "price": 5.89,
-        "description": "Meow"
+        "description": "Meow",
+        "price": 5.89
     }]
 }
